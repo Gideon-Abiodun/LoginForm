@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.main-body {
+  margin-top: 6rem;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.2) 50%,
+      rgba(0, 0, 0, 0.2) 50%
+    ),
+    url(./images/coff.jpg) no-repeat center fixed;
+  background-size: cover;
+  margin-bottom: 0rem;
+  
+}
+
+.container {
+  width: 320px;
+  height: 450px;
+  background-color: #000;
+  color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  padding: 70px 30px;
+}
+
+.profile-icon {
+  width: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+  bottom: 7.8rem;
+  left: 5rem;
+}
+
+.login {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -7rem;
+  margin-bottom: 2rem;
+}
+
+.profile-form .box {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.details {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.profile-form .box[type="text"],
+.box[type="password"] {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  font-size: 1rem;
+  color: #fff;
+  height: 2rem;
+  color: rgb(71, 71, 71);
+  margin-bottom: 1.6rem;
+  margin: 0 0 20px;
+}
+
+.profile-form .box[placeholder="Enter Username"],
+.profile-form .box[placeholder="Enter Password"] {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.profile-form .box[type="submit"] {
+  margin: 0;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: #fa2525;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-form .box[type="submit"]:hover {
+  background-color: #ffc107;
+  color: #000;
+  transition: 0.7s ease-in-out;
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(185, 184, 184);
+  line-height: 2.8;
+}
+
+.links:hover {
+  color: #ffc107;
+  transition: 0.7s ease-in-out;
+}
+
+.lost-pass {
+  color: rgb(185, 184, 184);
+}
+
+.sign {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ffc107;
+}
+
+.sign:hover {
+  color: rgb(185, 184, 184);
+}
+
+@media screen and (min-width: 900px) {
+    .main-body {
+        margin-top: 9rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+.main-body {
+    margin-top: 9rem;
+}
+}
