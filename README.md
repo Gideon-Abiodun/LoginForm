@@ -2,7 +2,4 @@
 
 
 
-
-
-
-Click to view website: https://github.com/Gideon-Abiodun/LoginForm.git
+Click to visit website: https://github.com/Gideon-Abiodun/LoginForm.git
